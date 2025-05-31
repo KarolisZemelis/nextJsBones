@@ -1,0 +1,2 @@
+# nextJsBones
+bare bone setup

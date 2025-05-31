@@ -1,40 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Pixel-Perfect UI – Next.js Project
 
-## Getting Started
+This project is a clean Next.js setup for implementing pixel-perfect UI designs, typically used in internship or junior front-end development tests. It includes reusable components, scoped CSS modules, and a minimal structure to get started quickly.
 
-First, run the development server:
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to clone and run the app locally.
+
+### 📦 Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- npm (comes with Node)
+
+---
+
+### 📁 Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔧 Install dependencies
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+▶️ Run the development server
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧹 Clean-up Notes
+You can delete or customize:
 
-## Learn More
+/pages/api/hello.js – sample API route
 
-To learn more about Next.js, take a look at the following resources:
+/pages/\_document.js – only needed for advanced HTML structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+🧠 Features
+Next.js with Pages Router
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Global CSS and CSS Modules
 
-## Deploy on Vercel
+Clean structure for pixel-perfect Figma implementation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Reusable component example (Button)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+📁 Project Structure
+
+```
+/components         → Reusable UI components
+/pages              → Page routes (index, api, etc.)
+/public             → Static assets
+/styles             → Global & component styles
+
+```

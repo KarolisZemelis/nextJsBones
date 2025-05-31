@@ -18,8 +18,9 @@ Follow the steps below to clone and run the app locally.
 ### 📁 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/KarolisZemelis/nextJsBones.git
+(https://github.com/KarolisZemelis/nextJsBones.git)
+cd nextJsBones
 ```
 
 🔧 Install dependencies

@@ -1,0 +1,60 @@
+@use "./var" as v;
+@use "./button.scss";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: v.$font-primary;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+:focus {
+  outline: 2px solid v.$accent-blue;
+  outline-offset: 2px;
+  transition: outline 0.2s ease;
+}
